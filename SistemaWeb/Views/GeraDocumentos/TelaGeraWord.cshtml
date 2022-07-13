@@ -44,21 +44,22 @@
 <script src="~/js/gera_word.js"></script>
 
 <script>
-    function createDocument() {
-        let data = {
-            modeloID: document.getElementById("modeloID").value,
-            modeloNome: document.getElementById("modeloNome").value,
-            modeloMarca: document.getElementById("modeloMarca").value,
-            modeloAno: document.getElementById("modeloAno").value
-        };
+    function gerarWord() {
+
+        var formData = new FormData();
+        formData.append("id", document.getElementById("modeloID").value);
+        formData.append("nome", document.getElementById("modeloNome").value);
+        formData.append("marca", document.getElementById("modeloMarca").value);
+        formData.append("ano", document.getElementById("modeloAno").value);
         
-        &ajax({
-            url: "GeraDocumentos/criaDocumentoWord",
+        $.ajax({
+            url: "/GeraDocumentos/criaDocumentoWord/",
             type: "POST",
-            data: data,
+            data: formData,
             success: function (data) {
                 console.log(data);
             }
         });
+    }
 
 </script>
