@@ -2365,7 +2365,6 @@ C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.TagHelpers.input.cache
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.TagHelpers.output.cache
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.RazorCoreGenerate.cache
-C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\GeraDocumentos\GeraExcel.cshtml.g.cs
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\Login\TelaLogin.cshtml.g.cs
@@ -2381,3 +2380,5 @@ C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.dll
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.pdb
 C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\SistemaWeb.genruntimeconfig.cache
+C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\GeraDocumentos\TelaGeraExcel.cshtml.g.cs
+C:\Users\DEV\OneDrive\Área de Trabalho\gerador de documentos projeto\gerador-de-documentos-csharp\SistemaWeb\obj\Debug\netcoreapp3.1\Razor\Views\GeraDocumentos\TelaGeraWord.cshtml.g.cs

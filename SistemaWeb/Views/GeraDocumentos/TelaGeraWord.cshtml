@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Gera Word";
+}
+
+<h4>Gera Word</h4>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<!-- Cadastro de carros por ex -->
+<div>
+    <input type="button" value="Gerar" onclick="gerarWord()" />
+
+    <form>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="modeloId">Código</label>
+                    <input class="form-control" type="text" value="" id="modeloID" placeholder="..." ng-model="modeloID" required/>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="modeloNome">Nome</label>
+                    <input class="form-control" type="text" value="" id="modeloNome" ng-model="modeloNome" required />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="modeloMarca">Marca</label>
+                    <input class="form-control" type="text" value="" id="modeloMarca"  ng-model="modeloMarca" required/>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="modeloAno">Ano</label>
+                    <input class="form-control" type="text" value="" id="modeloAno" ng-model="modeloAno" required />
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
+<br>
+<br>
+<br>
+<script src="~/js/gera_word.js"></script>
+
+<script>
+    function createDocument() {
+        let data = {
+            modeloID: document.getElementById("modeloID").value,
+            modeloNome: document.getElementById("modeloNome").value,
+            modeloMarca: document.getElementById("modeloMarca").value,
+            modeloAno: document.getElementById("modeloAno").value
+        };
+        
+        &ajax({
+            url: "GeraDocumentos/criaDocumentoWord",
+            type: "POST",
+            data: data,
+            success: function (data) {
+                console.log(data);
+            }
+        });
+
+</script>
